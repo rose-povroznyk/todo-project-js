@@ -7,5 +7,41 @@
     <script defer src="./index.js"></script>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <section class="first-screen">
+      <article class="todo-box">
+        <header class="todo-box-header">
+          <h1>to do!</h1>
+          <img src="./images/cup2.png" alt="cup" class="todo-box-img" />
+        </header>
+        <img src="./images/cats.png" alt="cats" class="bottom-img" />
+        <img
+          src="./images/confetti2.gif"
+          alt="confetti"
+          class="confetti hidden"
+        />
+        <div class="todo-input-container">
+          <div>
+            <input
+              type="text"
+              focus
+              required
+              placeholder="do whatchu gotta do"
+            />
+
+            <button class="btn-paw">
+              <img src="./images/cat-paw.png" alt="paw" />
+            </button>
+          </div>
+
+          <ul id="todo-list">
+            <!-- <li class="list-item">
+              I need to read books
+              <button class="btn">&#10004;</button>
+            </li> -->
+          </ul>
+        </div>
+      </article>
+    </section>
+  </body>
 </html>
